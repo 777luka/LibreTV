@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "libretv",
+  "compatibility_date": "2026-06-11",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "single-page-application",
+    "html_handling": "auto-trailing-slash",
+    "ignore": ["node_modules/**", ".git/**", ".github/**"]
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
